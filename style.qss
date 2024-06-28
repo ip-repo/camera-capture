@@ -1,0 +1,43 @@
+QMainWindow {
+    background-color:#375361;
+    font-size:20pt;
+}
+QToolTip {
+     background-color:#375361;
+     color:red;
+
+}
+QPushButton {
+		qproperty-iconSize: 60px;
+        background:#375361;
+
+}
+
+QPushButton:hover {
+
+        background-color:"white";
+}
+
+QListWidget {
+    background-color:"lightblue";
+}
+
+QDialog {
+    background-color:#375361;
+
+   
+}
+
+QListWidget:item:selected { background: palette(Highlight); }
+
+QLabel {color:"white";
+font-size:16pt;
+}
+QComboBox {
+    color:"white";
+    background-color:#375361;
+}
+QComboBox:selected {
+    color:#375361;
+    background-color:white;
+}
