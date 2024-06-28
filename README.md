@@ -7,7 +7,7 @@ This app can be usefull when turning it to an exe file and that will allow users
 ### How to use
 ```console
 python -m venv camera venv 
-camera-venvScripts\activate
+camera-venv\Scripts\activate
 pip install PySide6 #6.6.2
 
 git clone https://github.com/ip-repo/camera-capture.git
